@@ -7,7 +7,7 @@
 
 ## Repositorio público para alumnos de ISTEA
 
-## Carrera: Infraestructura de Redes
+## Carrera: SOPORTE DE INFRAESTRUCTURA
 
 ## Año 2024
 
@@ -15,4 +15,8 @@
 
 ## Profesor: Juan Pablo Sosa <juanpablososa@gmail.com>, <juan.pablo.sosa@istea.com.ar>
 
-## Horario de cursada: 19:00 a 21:00 hs.
+
+
+Horario de cursada: 19:00 a 21:00 hs.
+
+73700-2024-1C-Infraestructuras 22-División A-Día lunes
