@@ -13,15 +13,22 @@ Si el numero que puso el usuario esta entre el valor minimo y el valor maximo mo
 """
 
 
-valor_min = 20
-valor_max = 500
+MIN = 20
+MAX = 500
 
 numero = input("Ingrese un numero: ")
 while not numero.isdigit():
     numero = input("Ingrese un numero: ")
 
-# debe continuar acá el programa
+numero = int(numero)
 
-print("fin del programa........aun sin resolverlo.")
+if numero < MIN:
+    print("VALOR BAJO")
+elif numero > MAX:
+    print("VALOR ALTO")
+else:
+    print("VALOR MEDIO")
+
+
 
 
