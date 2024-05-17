@@ -43,4 +43,5 @@ def main() -> None:
         print("\nUsted ingresó un valor incorrecto.\n")
 
 
-main()
+if __name__ == "__main__":
+    main()
