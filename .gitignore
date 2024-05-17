@@ -1,9 +1,10 @@
 
+
 /temp/
+
 
 **/__pycache__/
 
-/venv/
 
-/.idea/
+/**/.idea/*
 
