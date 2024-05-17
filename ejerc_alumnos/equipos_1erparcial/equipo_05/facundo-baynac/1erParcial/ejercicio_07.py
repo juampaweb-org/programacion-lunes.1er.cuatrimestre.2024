@@ -40,3 +40,7 @@ def main() -> None:
         print("Desea continuar operando? s/n: ")
         continuar = input()
     print(promedio_notas(alumno, notas))
+
+
+if __name__ == "__main__":
+    main()
