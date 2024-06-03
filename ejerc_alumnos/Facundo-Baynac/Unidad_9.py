@@ -132,7 +132,7 @@ def dic_frecuencia_palabra() -> None:
     """8. Escribe una función que tome una cadena de texto y devuelva un diccionario con la frecuencia de cada palabra."""
 
 
-def conteo_ocurrencias_en_lista -> None:
+def conteo_ocurrencias_en_lista() -> None:
     """9. Escribe una función que tome una lista de elementos y devuelva un diccionario con cada elemento de la lista y su conteo de ocurrencias en la lista."""
 
 
