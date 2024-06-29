@@ -1,4 +1,6 @@
 # UNIDAD 2
+
+
 import math  # Para ejercicio 4
 
 
@@ -76,6 +78,23 @@ def calcular_perimetro_triangulo() -> None:
     print(f"El perímetro del triángulo equilátero es: {perimetro_triangulo}")
 
 
+def imprime_tipo_de_dato() -> None:
+    """Pide al usuario que ingrese su nombre, edad y ciudad de residencia y luego imprime cada uno de esos datos con su respectivo tipo de dato."""
+    print("Ingrese nombre:\n")
+    nombre = input()
+    print("Ingrese edad:\n")
+    edad = int(input()) # Input siempre lo toma como string pero debería ser integer
+    print("Ingrese ciudad de residencia: \n")
+    ciudad = input()
+    print(f"Tipo de dato nombre: {str(type(nombre))} \nTipo de dato edad: {str(type(edad))} \nTipo de dato ciudad: {str(type(ciudad))}")
+
+
+def operacion_matematica() -> None:
+    """Realiza una operación matemática que involucre paréntesis, multiplicación, suma y resta. Guarda el resultado en una variable y luego imprímela junto con su tipo de dato."""
+    resultado = (14 * 34) / 12 * (2 - 3 + 6)
+    print(f"El resultado es: {str(resultado)} y su tipo de dato es: {str(type(resultado))}")
+
+
 def main() -> None:
     print("\nEjercicio 1:\n")
     area_rectangulo()
@@ -94,8 +113,9 @@ def main() -> None:
     print("\nEjercicio 8:\n")
     calcular_perimetro_triangulo()
     print("\nEjercicio 9:\n")
-
+    imprime_tipo_de_dato()
     print("\nEjercicio 10:\n")
+    operacion_matematica()
 
 
 if __name__ == "__main__":
